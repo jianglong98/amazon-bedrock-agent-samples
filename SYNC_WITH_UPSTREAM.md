@@ -37,3 +37,22 @@ To keep your fork up to date with the original (upstream) repository, follow the
 - Always make sure your local changes are committed or stashed before syncing
 - If you have made changes to files that were also changed in the upstream repository, you might need to resolve merge conflicts
 - It's a good practice to sync regularly to keep your fork up to date and minimize merge conflicts
+
+## Save and Push Local Changes to GitHub
+
+To save your local changes and push them to your GitHub remote repository, follow these steps:
+
+1. **Stage Your Changes**:
+   ```bash
+   git add .
+   ```
+
+2. **Commit Your Changes**:
+   ```bash
+   git commit -m "Your commit message"  ## or runnng below command if the file is md style
+   git commit -m "Update SYNC_WITH_UPSTREAM.md"
+   ```
+
+3. **Push to Your Remote Repository**:
+   ```bash
+   git push origin main
