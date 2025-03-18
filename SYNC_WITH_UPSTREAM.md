@@ -4,7 +4,7 @@ To keep your fork up to date with the original (upstream) repository, follow the
 
 1. **Add the Upstream Repository** (one-time setup)
    ```bash
-   git remote add upstream https://github.com/awslabs/amazon-bedrock-agents-examples.git
+   git remote add upstream https://github.com/awslabs/amazon-bedrock-agent-samples.git
    ```
 
 2. **Verify Your Remotes**
